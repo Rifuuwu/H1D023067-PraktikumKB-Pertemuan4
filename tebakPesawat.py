@@ -78,7 +78,7 @@ def jawaban(jwb):
     
 def hasil_tebakan(pesawat = ""):
     if pesawat:
-        messagebox.showinfo("Hasil tebakan", f"Anda terdeteksi {pesawat}.")
+        messagebox.showinfo("Hasil tebakan", f"Pesawat anda adalah {pesawat}.")
     else:
         messagebox.showinfo("Hasil tebakan", "Tidak terdeteksi pesawat.")
     
